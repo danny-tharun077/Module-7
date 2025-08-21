@@ -1,9 +1,9 @@
-# # 🔁 Recursion:Sum of Digits using Recursion in Python
+# EX(7(C)) Recursion:Sum of Digits using Recursion in Python
 
-## 🎯 AIM:
+##  AIM:
 To write a Python program to calculate the **sum of all digits** in a number using **recursion**.
 
-## 🧠 ALGORITHM:
+##  ALGORITHM:
 
 1. **Start**
 2. Define a recursive function `sum_digit(n)` that:
@@ -14,10 +14,20 @@ To write a Python program to calculate the **sum of all digits** in a number usi
 5. Print the result.
 6. **Stop**
 
-## 💻 PROGRAM:
+## PROGRAM:
 
-ADD CODE HERE
+```
+def sum_of_digits(n): 
+           if n == 0: 
+               return 0 
+           else: 
+             return n % 10 + sum_of_digits(n // 10) 
+number = int(input()) 
+number = abs(number)
+```
 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/c336916c-d051-45f4-a874-898a444100fe)
 
 ## RESULT
+Thus the program has been successfully executed 
